@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMaster.master.cs" Inherits="HomeMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 490px;
+        }
+        .style2
+        {
+            width: 184px;
+        }
+    </style>
+</head>
+<body style="height: 612px" bgcolor="#cccccc">
+    <form id="form1" runat="server">
+    <div>
+       
+        <table class="style1">
+            <tr>
+                <td class="style2">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:ImageButton ID="ImageButton1" runat="server" 
+                        ImageUrl="~/ProjectImage/Captured.jpg" 
+                        
+                        
+                        
+                        style="z-index: 1; left: 10px; top: 13px; position: absolute; height: 124px; width: 186px; right: 1099px;" 
+                        onclick="ImageButton1_Click" />
+                    <br />
+                </td>
+                <td>
+               
+                   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/coollogo_com276911146.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/coollogo_com11276610.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/coollogo_com32469330.jpg" alt="jquery carousel" title="" id="wows1_2"/></a></li>
+		<li><img src="data1/images/coollogo_com129431144.jpg" alt="" title="" id="wows1_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+               
+                </td>
+            </tr>
+            <tr>
+                <td class="style2" bgcolor="#F0E5E5" 
+                    style="border-color: #0033CC; border-top-style: solid;">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Button ID="Button2" runat="server" BackColor="#FF9966" Font-Size="X-Large" 
+                        style="z-index: 1; left: 24px; position: absolute; width: 157px; height: 42px; top: 277px;" 
+                        Text="Admin" ForeColor="White" onclick="Button2_Click" />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Button ID="Button3" runat="server" BackColor="#FF9966" Font-Size="X-Large" 
+                    
+                     onclick="Button3_Click" Text="FeedBack" 
+                        
+                        style="z-index: 1; left: 24px; top: 344px; position: absolute; width: 157px; height: 42px;" 
+                        ForeColor="White" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:Button ID="Button4" runat="server" ForeColor="White" BackColor="#FF9966" Font-Size="X-Large"
+                        
+                        
+                        style="z-index: 1; left: 25px; top: 408px; position: absolute;width: 157px; height: 42px" Text="About Us" 
+                        Width="102px" onclick="Button4_Click" />
+                    <br />
+                    <br />
+                    <asp:Button ID="Button5" runat="server"  ForeColor="White" BackColor="#FF9966" Font-Size="X-Large"
+                        style="z-index: 1; left: 24px; top: 481px; position: absolute; width: 157px; height: 42px" 
+                        Text="Contact Us" onclick="Button5_Click" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td style="background-position: left top; background-image: url('/OnlineExamnationSystem/ProjectImage/office_desktop_items_01_hd_pictures.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                      
+                    </asp:ContentPlaceHolder>
+                    <asp:Button ID="Button1" runat="server" BackColor="#FF9966" Font-Size="X-Large" 
+                        ForeColor="White" onclick="Button1_Click" 
+                        style="z-index: 1; left: 23px; top: 203px; position: absolute; width: 157px; height: 42px" 
+                        Text="Home" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" bgcolor="#F0E5E5">
+                    &copyShivam Tiwari<br />
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>
